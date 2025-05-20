@@ -17,6 +17,7 @@
           <groupId>me.wang</groupId>
           <artifactId>OmniTrack</artifactId>
           <version>1.0</version><!--Replace with the latest version-->
+          <scope>provided</scope>
       </dependency>
   </dependencies>
 ```
