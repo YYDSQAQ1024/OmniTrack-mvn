@@ -22,10 +22,10 @@
   </dependencies>
 ```
 获取OmniTrack API:
-'''
+```
 import me.wang.omnitrack.OmniTrack;
 import me.wang.omnitrack.api.OmniTrackAPI;
 ...
 OmniTrack omniTrack = (OmniTrack) getServer().getPluginManager().getPlugin("OmniTrack");
 OmniTrackAPI api = omniTrack.getAPI();
-'''
+```
