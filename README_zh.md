@@ -26,6 +26,7 @@
 import me.wang.omnitrack.OmniTrack;
 import me.wang.omnitrack.api.OmniTrackAPI;
 ...
+OmniTrack omniTrack = (OmniTrack) getServer().getPluginManager().getPlugin("OmniTrack");
 PluginRegister register = new PluginRegister(this);
 OmniTrackAPI api = omniTrack.getAPI(register);
 ```
